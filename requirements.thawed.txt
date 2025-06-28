@@ -1,11 +1,7 @@
 # THIS IS AN AUTO-GENERATED FILE. DO NOT EDIT!
-pymakehelper
+mypy
 pydmt
 pylint
+pymakehelper
 pytest
 pytest-cov
-flake8
-pyflakes
-mypy
-types-chardet
-types-PyYAML
