@@ -42,7 +42,7 @@ MD_ASPELL:=$(addprefix out/,$(addsuffix .aspell,$(MD_BAS)))
 MD_MDL:=$(addprefix out/,$(addsuffix .mdl,$(MD_BAS)))
 
 # python
-PY_SRC:=$(shell find scripts -type f -and -name "*.py")
+PY_SRC:=$(shell find exercises -type f -and -name "*.py")
 PY_LINT:=$(addprefix out/,$(addsuffix .lint, $(basename $(PY_SRC))))
 
 # shell

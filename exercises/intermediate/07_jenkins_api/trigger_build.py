@@ -1,5 +1,11 @@
 #!/usr/bin/env python3
- 
+
+"""
+A script connecting to jenkins and triggering a build of a particular job_name
+"""
+
+import requests
+
 user="veltzer"
 token_value="115b34c6c33fcd4d094a3008dd56137dba"
 token_name="marks_token"
@@ -8,8 +14,6 @@ port="8080"
 protocol="http"
 job_name="mv_pytest"
 
-import requests
-from urllib.parse import urlencode
 
 
 url=f"{protocol}://{user}:{token_value}@{url}:{port}/job/{job_name}/build?token={token_name}"
