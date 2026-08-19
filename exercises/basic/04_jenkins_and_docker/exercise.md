@@ -15,19 +15,19 @@ agent {
 * Select a docker image from docker hub which has slim python (`python:3-alpine`)
 
 * Configure the pipeline to run inside this docker
-    (all you need to change is the `agent` line)
+  (all you need to change is the `agent` line)
 
 * Check that you can run the build inside docker
 
 * Here is how to build the docker image on the jenkins machine command line:
     * create a new folder
     * in the new folder create a file called Dockerfile with the following content:
-        `FROM python:3-alpine
-        RUN pip install pytest`
+      `FROM python:3-alpine
+      RUN pip install pytest`
     * build the docker image with the command:
-        `docker build --tag python_with_pytest .`
+      `docker build --tag python_with_pytest .`
     * see that your image was built using:
-        `$ docker images`
+      `$ docker images`
 
 * to install docker on your machine use:
 `$ sudo apt install docker.io`

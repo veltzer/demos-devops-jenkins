@@ -1,7 +1,7 @@
 # Parallel on different nodes
 
 * Write a pipeline that runs two jobs in parallel:
-    one on windows and one on Linux.
+  one on windows and one on Linux.
 
 * Use labels to designate which should run on Linux and which on windows
 

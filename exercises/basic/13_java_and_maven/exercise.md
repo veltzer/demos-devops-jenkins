@@ -5,9 +5,9 @@
 * run a "hello world" type pipeline with that image.
 
 * create a public repo on github.com which has three files:
-    `pom.xml`
-    `src/HelloWorld.java`
-    `Jenkinsfile`
+  `pom.xml`
+  `src/HelloWorld.java`
+  `Jenkinsfile`
 
 * create and run a pipeline on that repository.
 

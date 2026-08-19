@@ -4,7 +4,7 @@ The idea behind this exercise is to have jenkins do different things for differe
 
 You should use the "multibranch" jenkins project for this
 
-Documentation is [here](https://www.jenkins.io/doc/book/pipeline/multibranch)
+See [the multibranch pipeline documentation](https://www.jenkins.io/doc/book/pipeline/multibranch)
 
 * Connect this project to one of your GitHub repo.
 

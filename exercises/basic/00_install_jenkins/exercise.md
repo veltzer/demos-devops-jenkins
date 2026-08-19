@@ -2,25 +2,25 @@
 
 * install jenkins in the following ways:
     * docker
-        follow the instructions on the jenkins website.
-        You will need to install docker, configure it properly.
+      follow the instructions on the jenkins website.
+      You will need to install docker, configure it properly.
     * war file
-        use
+      use
 
         ```shell
-        $ java -jar [file.war]
+        java -jar [file.war]
         ```
 
-        The war file can be downloaded from [here](https://www.jenkins.io/download)
+        The war file can be downloaded from [the Jenkins download page](https://www.jenkins.io/download)
         You will need to install java if you don't already have it.
     * from binary distribution
-        download, unzip and run
-        You will need to install java if you don't already have it.
+      download, unzip and run
+      You will need to install java if you don't already have it.
     * using your package manager.
-        This will require you to add a repository and install jenkins
-        from that repository.
+      This will require you to add a repository and install jenkins
+      from that repository.
 
-    * Once You have installed jenkins open it in your browser [here](http://your_ip:8080/here)
+    * Once You have installed jenkins open [your Jenkins instance](http://your_ip:8080) in your browser
 
 * play around with the GUI.
 

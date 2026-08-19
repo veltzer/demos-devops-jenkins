@@ -2,7 +2,7 @@
 
 * The idea of this exercise is to connect jenkins to EC2 and have jenkins run agents on EC2 machines.
 
-[link](https://plugins.jenkins.io/ec2)
+[the Jenkins EC2 plugin](https://plugins.jenkins.io/ec2)
 
 * install EC2 plugin to jenkins
 * configure it properly (this will require creating key and secret for the agent via IAM)

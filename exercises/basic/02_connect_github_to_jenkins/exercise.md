@@ -39,4 +39,4 @@ Push and enjoy (you should see jenkins run tests automatically on every push to 
 
 ## References
 
-* [link](https://www.blazemeter.com/blog/how-to-integrate-your-github-repository-to-your-jenkins-project)
+* [BlazeMeter: how to integrate your GitHub repository with Jenkins](https://www.blazemeter.com/blog/how-to-integrate-your-github-repository-to-your-jenkins-project)

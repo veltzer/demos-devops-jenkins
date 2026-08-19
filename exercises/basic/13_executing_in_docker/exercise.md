@@ -13,7 +13,7 @@ ps -ef | grep docker
 ```
 
 * add your user to the `docker` group like this:
-    `sudo adduser $USER docker`
+  `sudo adduser $USER docker`
 
 * logout and login, and check that the output of `groups` contained `docker`.
 

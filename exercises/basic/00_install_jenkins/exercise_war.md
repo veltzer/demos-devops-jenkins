@@ -1,7 +1,7 @@
 # Install Jenkins using war file
 
 * you need
-        use
+  use
 
 ```shell
 java -jar [file.war]
