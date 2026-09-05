@@ -1,6 +1,6 @@
 #!/bin/bash
 
-l=$LENGTH
-w=$WIDTH
+l=${LENGTH}
+w=${WIDTH}
 area=$((l*w))
-echo "The area of the rectangle is $area"
+echo "The area of the rectangle is ${area}"

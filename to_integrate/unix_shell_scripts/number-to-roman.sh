@@ -9,13 +9,13 @@ to_roman() {
   factor=$2
   r_char=$3
   remainder=$((number - factor))
-  while [ "$remainder" -ge 0 ]; do
-    echo -n "$r_char"
+  while [ "${remainder}" -ge 0 ]; do
+    echo -n "${r_char}"
     number=$((number - factor))
     remainder=$((number - factor))
   done
 
-  return $number
+  return "${number}"
 }
 
 # Usage: roman number-to-convert
@@ -26,34 +26,34 @@ E_OUT_OF_RANGE=66
 
 if [ -z "${NUMBER}" ]; then
   echo "Usage: NUMBER should have a numerical value"
-  exit $E_ARG_ERR
+  exit ${E_ARG_ERR}
 fi
 
 num=${NUMBER}
-if [ "$num" -gt $LIMIT ]; then
+if [ "${num}" -gt ${LIMIT} ]; then
   echo "Out of range!"
-  exit $E_OUT_OF_RANGE
+  exit ${E_OUT_OF_RANGE}
 fi
 
 echo "CONVERTED ROMAN NUMBER IS:"
 
-to_roman "$num" 100 C
+to_roman "${num}" 100 C
 num=$?
-to_roman $num 90 LXXXX
+to_roman ${num} 90 LXXXX
 num=$?
-to_roman $num 50 L
+to_roman ${num} 50 L
 num=$?
-to_roman $num 40 XL
+to_roman ${num} 40 XL
 num=$?
-to_roman $num 10 X
+to_roman ${num} 10 X
 num=$?
-to_roman $num 9 IX
+to_roman ${num} 9 IX
 num=$?
-to_roman $num 5 V
+to_roman ${num} 5 V
 num=$?
-to_roman $num 4 IV
+to_roman ${num} 4 IV
 num=$?
-to_roman $num 1 I
+to_roman ${num} 1 I
 
 echo
 echo

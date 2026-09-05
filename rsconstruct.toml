@@ -25,7 +25,8 @@ src_dirs = ["tera.templates"]
 # ─── markdown ────────────────────────────────────────────────────────────────
 
 [processor.rumdl]
-src_dirs = ["exercises"]
+src_dirs = ["exercises", "to_integrate"]
+src_files = ["README.md"]
 
 [processor.zspell]
 src_dirs = ["exercises"]
@@ -42,8 +43,7 @@ src_dirs = ["config", "exercises"]
 src_dirs = ["config", "exercises"]
 
 [processor.shellcheck]
-src_dirs = ["exercises", "config"]
-args = ["--severity=error", "--shell=bash"]
+src_dirs = ["exercises", "config", "to_integrate/unix_shell_scripts"]
 
 # ─── lua ─────────────────────────────────────────────────────────────────────
 
@@ -58,3 +58,29 @@ src_dirs = ["."]
 # lint the GitHub Actions workflow files with actionlint
 [processor.actionlint]
 src_dirs = [".github/workflows"]
+
+# ─── yaml ────────────────────────────────────────────────────────────────────
+
+[processor.yamllint]
+src_dirs = ["exercises", "to_integrate/Calc"]
+
+# ─── docker ──────────────────────────────────────────────────────────────────
+
+[processor.hadolint]
+src_dirs = ["exercises/intermediate/06_create_docker_image"]
+
+# ─── json ────────────────────────────────────────────────────────────────────
+
+[processor.ijsonlint]
+src_dirs = ["to_integrate/groovyExamples"]
+
+# ─── xml / svg ───────────────────────────────────────────────────────────────
+
+[processor.xmllint]
+src_dirs = ["exercises/basic/13_java_and_maven", "to_integrate/Calc"]
+
+# ─── java ────────────────────────────────────────────────────────────────────
+
+[processor.checkstyle]
+src_dirs = ["exercises/basic/13_java_and_maven/src/main/java/com/company", "to_integrate/Calc/src"]
+args = ["-c", "checkstyle.xml"]

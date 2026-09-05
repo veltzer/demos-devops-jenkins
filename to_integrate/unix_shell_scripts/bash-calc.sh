@@ -1,6 +1,6 @@
 #!/bin/bash 
 
-readlink -f $(which sh)
+readlink -f "$(which sh)"
 
 # Take user Input 
 a=${FIRST}
@@ -22,15 +22,15 @@ echo "Your Choice : ${ch}"
 
 # Switch Case to perform 
 # calculator operations
-case $ch in
-1)res=$(echo "$a" + "$b" | bc)
+case ${ch} in
+1)res=$(echo "${a}" + "${b}" | bc)
 ;; 
-2)res=$(echo "$a" - "$b" | bc)
+2)res=$(echo "${a}" - "${b}" | bc)
 ;; 
-3)res=$(echo $a \* $b | bc)
+3)res=$(echo "${a}" \* "${b}" | bc)
 ;; 
-4)res=$(echo "scale=2; $a / $b" | bc)
+4)res=$(echo "scale=2; ${a} / ${b}" | bc)
 ;; 
 esac
-echo "Result : $res"
+echo "Result : ${res}"
 

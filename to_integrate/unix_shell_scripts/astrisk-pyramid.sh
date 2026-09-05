@@ -1,6 +1,6 @@
 #!/bin/bash -x
 set +x
-rows=$NUMBER_OF_ROWS
+rows=${NUMBER_OF_ROWS}
 for ((i = 1; i <= rows; i++)); do
   for ((j = 1; j <= rows - i; j++)); do
     echo -n "  "

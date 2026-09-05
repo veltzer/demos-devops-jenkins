@@ -12,10 +12,10 @@ b=1
 echo "The Fibonacci series is : " >> fib.txt
 
 for ((i = 0; i < N; i++)); do
-  echo -n "$a " >> fib.txt
+  echo -n "${a} " >> fib.txt
   fn=$((a + b))
-  a=$b
-  b=$fn
+  a=${b}
+  b=${fn}
 done
 
 printf "\nFinished\n" >> fib.txt

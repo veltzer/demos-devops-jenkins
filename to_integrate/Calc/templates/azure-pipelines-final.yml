@@ -21,7 +21,7 @@ steps:
     publishJUnitResults: true
     testResultsFiles: '**/surefire-reports/TEST-*.xml'
     goals: 'cobertura:cobertura'
-    #codeCoverageToolOption: Cobertura
+    # codeCoverageToolOption: Cobertura
 
 - task: PublishCodeCoverageResults@1
   inputs:
