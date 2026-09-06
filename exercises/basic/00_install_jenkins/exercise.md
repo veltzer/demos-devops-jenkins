@@ -11,15 +11,14 @@
         java -jar [file.war]
         ```
 
-        The war file can be downloaded from [the Jenkins download page](https://www.jenkins.io/download)
-        You will need to install java if you don't already have it.
+      The war file can be downloaded from [the Jenkins download page](https://www.jenkins.io/download)
+      You will need to install java if you don't already have it.
     * from binary distribution
       download, unzip and run
       You will need to install java if you don't already have it.
     * using your package manager.
       This will require you to add a repository and install jenkins
       from that repository.
-
     * Once You have installed jenkins open [your Jenkins instance](http://your_ip:8080) in your browser
 
 * play around with the GUI.
