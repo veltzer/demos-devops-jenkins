@@ -1,3 +1,3 @@
-NAME = "demmos-jenkins"
+NAME = "demos-devops-jenkins"
 DESCRIPTION_SHORT = "Demos for Jenkins"
 KEYWORDS = {"jenkins", "build", "groovy"}

@@ -1,11 +1,11 @@
 <!-- This file is generated. Do not edit it by hand: your changes will be
      lost on the next build. Edit the template it is rendered from, or the
      values that template reads, and build again. -->
-# *demmos-jenkins* project by Mark Veltzer
+# *demos-devops-jenkins* project by Mark Veltzer
 
 description: Demos for Jenkins
 
-project website: https://veltzer.github.io/demmos-jenkins
+project website: https://veltzer.github.io/demos-devops-jenkins
 
 author: Mark Veltzer
 
@@ -15,11 +15,11 @@ version: 0.0.1
 
 ## github
 
-![License](https://img.shields.io/github/license/veltzer/demmos-jenkins)
+![License](https://img.shields.io/github/license/veltzer/demos-devops-jenkins)
 
 ## build
 
-![build](https://github.com/veltzer/demmos-jenkins/workflows/build/badge.svg)
+![build](https://github.com/veltzer/demos-devops-jenkins/workflows/build/badge.svg)
 
 ## contact me
 
