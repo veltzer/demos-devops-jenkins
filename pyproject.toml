@@ -15,6 +15,7 @@ dev = [
     "pytest",
     "ruff",
     "types-requests",
+    "yamllint",
 ]
 
 [tool.uv]
