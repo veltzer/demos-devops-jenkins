@@ -63,7 +63,7 @@ src_dirs = [".github/workflows"]
 
 # ─── yaml ────────────────────────────────────────────────────────────────────
 
-[processor.checker.yamllint]
+[processor.checker.iyamllint]
 src_dirs = ["exercises", "to_integrate/Calc"]
 
 # ─── docker ──────────────────────────────────────────────────────────────────
