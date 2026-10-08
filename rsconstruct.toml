@@ -78,7 +78,7 @@ src_dirs = ["to_integrate/groovyExamples"]
 
 # ─── xml / svg ───────────────────────────────────────────────────────────────
 
-[processor.checker.xmllint]
+[processor.checker.ixmllint]
 src_dirs = ["exercises/basic/13_java_and_maven", "to_integrate/Calc"]
 
 # ─── java ────────────────────────────────────────────────────────────────────
