@@ -68,7 +68,7 @@ src_dirs = ["exercises", "to_integrate/Calc"]
 
 # ─── docker ──────────────────────────────────────────────────────────────────
 
-[processor.checker.hadolint]
+[processor.checker.idockerfile]
 src_dirs = ["exercises/intermediate/06_create_docker_image"]
 
 # ─── json ────────────────────────────────────────────────────────────────────
