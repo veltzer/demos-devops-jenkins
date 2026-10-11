@@ -44,7 +44,7 @@ src_dirs = ["config", "exercises"]
 [processor.checker.pyrefly]
 src_dirs = ["config", "exercises"]
 
-[processor.checker.shellcheck]
+[processor.checker.ishellcheck]
 src_dirs = ["exercises", "config", "to_integrate/unix_shell_scripts"]
 
 # ─── lua ─────────────────────────────────────────────────────────────────────
@@ -83,6 +83,5 @@ src_dirs = ["exercises/basic/13_java_and_maven", "to_integrate/Calc"]
 
 # ─── java ────────────────────────────────────────────────────────────────────
 
-[processor.checker.checkstyle]
+[processor.checker.icheckstyle]
 src_dirs = ["exercises/basic/13_java_and_maven/src/main/java/com/company", "to_integrate/Calc/src"]
-args = ["-c", "checkstyle.xml"]
