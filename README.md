@@ -5,7 +5,7 @@
 
 description: Demos for Jenkins
 
-project website: https://veltzer.github.io/demos-devops-jenkins
+project website: <https://veltzer.github.io/demos-devops-jenkins>
 
 author: Mark Veltzer
 
