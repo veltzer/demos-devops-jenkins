@@ -8,4 +8,5 @@ then A is built.
 * If you trigger build of B, then A *IS NOT* built.
 
 Hint:
+
 * Build triggers

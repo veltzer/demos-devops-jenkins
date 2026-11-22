@@ -57,4 +57,5 @@ agent { docker { image 'python_with_pytest:latest' } }
 ```
 
 References:
+
 * [docker pipeline](https://www.jenkins.io/doc/book/pipeline/docker)

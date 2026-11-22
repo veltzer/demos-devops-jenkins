@@ -73,6 +73,7 @@ sudo update-alternatives --config java
 ```
 
 ## Instructions for people who cannot reach their cloud machine at port 8080
+
 * You must be connected with MobaXterm to do this.
 
 * install Firefox on your remote machine:

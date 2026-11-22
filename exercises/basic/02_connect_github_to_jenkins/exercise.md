@@ -21,6 +21,7 @@ run a jenkins server and configure it to poll your GitHub repository and test wh
 necessary. create a "pipeline" type object in jenkins and configure it properly.
 
 hints
+
 * look for guides on the internet about how to connect a jenkins pipeline to a GitHub repository.
 * look for guides on the internet about how to test python code with Jenkins.
 

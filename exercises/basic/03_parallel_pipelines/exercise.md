@@ -15,6 +15,7 @@ The idea behind this exercise is to run pipelines in parallel.
   parallel execution (Not a must, nice to have)
 
 Notes:
+
 * Remember to have at least 2 executors so that stuff will actually run in parallel.
 * Have a few stages in each of the pipelines (to simulate a real work complex project)
 * For the time, still use the "any" executor.
