@@ -24,6 +24,7 @@
 * play around with the GUI.
 
 ## Installing from an apt repository
+
 Consult [this](https://www.jenkins.io/doc/book/installing/linux) URL
 under "Long Term Support Release"
 and follow the instructions for installing jenkins on Ubuntu.
