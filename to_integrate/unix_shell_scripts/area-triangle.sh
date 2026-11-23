@@ -1,4 +1,7 @@
 #!/bin/bash
+: "${SIDE_A:?SIDE_A must be set}"
+: "${SIDE_B:?SIDE_B must be set}"
+: "${SIDE_C:?SIDE_C must be set}"
 a=${SIDE_A}
 b=${SIDE_B}
 c=${SIDE_C}

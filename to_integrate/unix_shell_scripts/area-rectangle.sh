@@ -1,4 +1,6 @@
 #!/bin/bash
+: "${LENGTH:?LENGTH must be set}"
+: "${WIDTH:?WIDTH must be set}"
 
 l=${LENGTH}
 w=${WIDTH}

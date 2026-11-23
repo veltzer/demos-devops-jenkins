@@ -1,4 +1,5 @@
 #!/bin/bash -x
+: "${NUMBER_OF_ROWS:?NUMBER_OF_ROWS must be set}"
 set +x
 rows=${NUMBER_OF_ROWS}
 number=1

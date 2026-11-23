@@ -1,4 +1,5 @@
 #!/bin/bash
+: "${FIB_N:?FIB_N must be set}"
 
 N=${FIB_N}
 

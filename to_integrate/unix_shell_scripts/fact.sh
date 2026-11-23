@@ -1,4 +1,5 @@
 #!/bin/bash
+: "${NUMBER:?NUMBER must be set}"
 
 num=${NUMBER}
 factorial=1

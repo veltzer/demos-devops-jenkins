@@ -9,8 +9,8 @@ protocol="http"
 job_name="my_pipeline"
 if [ "${protocol}" = "http" ]
 then
-	EXTRA_ARGS="--insecure"
+	EXTRA_ARGS=(--insecure)
 else
-	EXTRA_ARGS=""
+	EXTRA_ARGS=()
 fi
-curl ${EXTRA_ARGS} -X POST "${protocol}://${user}:${token_value}@${url}:${port}/job/${job_name}/build?token=${token_name}"
+curl "${EXTRA_ARGS[@]}" -X POST "${protocol}://${user}:${token_value}@${url}:${port}/job/${job_name}/build?token=${token_name}"

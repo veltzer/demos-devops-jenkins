@@ -1,6 +1,9 @@
 #!/bin/bash 
+: "${FIRST:?FIRST must be set}"
+: "${SECOND:?SECOND must be set}"
+: "${OPERATION:?OPERATION must be set}"
 
-readlink -f "$(which sh)"
+readlink -f "$(command -v sh)"
 
 # Take user Input 
 a=${FIRST}
@@ -31,6 +34,9 @@ case ${ch} in
 ;; 
 4)res=$(echo "scale=2; ${a} / ${b}" | bc)
 ;; 
+*)echo "Unknown operation: ${OPERATION}" >&2
+exit 1
+;;
 esac
 echo "Result : ${res}"
 
