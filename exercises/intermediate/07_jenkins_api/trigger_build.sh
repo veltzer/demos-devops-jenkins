@@ -7,7 +7,7 @@ url="localhost"
 port="8080"
 protocol="http"
 job_name="my_pipeline"
-if [ "${protocol}" = "http" ]
+if [[ "${protocol}" = "http" ]]
 then
 	EXTRA_ARGS=(--insecure)
 else

@@ -3,7 +3,8 @@
 : "${SECOND:?SECOND must be set}"
 : "${OPERATION:?OPERATION must be set}"
 
-readlink -f "$(command -v sh)"
+sh_path=$(command -v sh)
+readlink -f "${sh_path}"
 
 # Take user Input 
 a=${FIRST}

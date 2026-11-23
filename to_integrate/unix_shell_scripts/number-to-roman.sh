@@ -9,7 +9,7 @@ to_roman() {
   factor=$2
   r_char=$3
   remainder=$((number - factor))
-  while [ "${remainder}" -ge 0 ]; do
+  while [[ "${remainder}" -ge 0 ]]; do
     echo -n "${r_char}"
     number=$((number - factor))
     remainder=$((number - factor))
@@ -24,13 +24,13 @@ LIMIT=200
 E_ARG_ERR=65
 E_OUT_OF_RANGE=66
 
-if [ -z "${NUMBER}" ]; then
+if [[ -z "${NUMBER}" ]]; then
   echo "Usage: NUMBER should have a numerical value"
   exit "${E_ARG_ERR}"
 fi
 
 num=${NUMBER}
-if [ "${num}" -gt "${LIMIT}" ]; then
+if [[ "${num}" -gt "${LIMIT}" ]]; then
   echo "Out of range!"
   exit "${E_OUT_OF_RANGE}"
 fi
