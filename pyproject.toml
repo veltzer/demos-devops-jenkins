@@ -31,3 +31,6 @@ search-path = [
 ]
 # Loose scripts import their siblings: search each importing file's folder.
 enable-fallback-search-path = true
+
+[tool.pyrefly.errors]
+no-any-return = "error"
