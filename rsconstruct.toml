@@ -89,3 +89,8 @@ src_dirs = ["exercises/basic/13_java_and_maven", "to_integrate/Calc"]
 
 [processor.checker.icheckstyle]
 src_dirs = ["exercises/basic/13_java_and_maven/src/main/java/com/company", "to_integrate/Calc/src"]
+
+# every lint suppression names a rule and says why (see the fleet's CLAUDE.md)
+[processor.checker.suppressions]
+src_dirs = [".github", "config", "exercises", "to_integrate"]
+src_files = [".hadolint.yaml", ".yamllint.yaml", "README.md"]
