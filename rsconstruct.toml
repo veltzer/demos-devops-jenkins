@@ -80,6 +80,7 @@ src_dirs = ["to_integrate/groovyExamples"]
 # ─── xml / svg ───────────────────────────────────────────────────────────────
 
 [processor.checker.ixmllint]
+src_files = ["checkstyle.xml"]
 # warnings fail too, not only fatal errors
 strict = true
 src_dirs = ["exercises/basic/13_java_and_maven", "to_integrate/Calc"]
