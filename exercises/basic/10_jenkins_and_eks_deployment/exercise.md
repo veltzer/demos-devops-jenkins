@@ -19,14 +19,15 @@ Phase1 - deploy an EKS cluster and being able to talk to it using `kubectl`
   `$ kubectl get pods -o wide`
 
 Phase2 - learn how to deploy nginx to a k8s cluster and deploy one pod with nginx to the cluster
-    *MANUALLY*
-    Use `kubectl` for this
-    See that you nginx pod is running by connecting to it with a browser.
-    Undeploy your pod
+*MANUALLY*
+
+* Use `kubectl` for this
+* See that you nginx pod is running by connecting to it with a browser.
+* Undeploy your pod
 
 Phase3 - use a jenkins pipeline (freestyle) to do the same thing you did in phase2 but not manually
-    but rather from a Jenkins project.
+but rather from a Jenkins project.
 
 Phase4 - In this phase deploy *TWO* nginx pods and ask k8s to create a "service" with a load balancer
-    to load balance the traffic between the two pods.
-    All of this needs to be done from a Jenkins project (of course).
+to load balance the traffic between the two pods.
+All of this needs to be done from a Jenkins project (of course).

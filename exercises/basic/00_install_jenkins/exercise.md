@@ -63,9 +63,13 @@ java --version
 ```
 
 should return:
-    openjdk version "11.0.18" 2023-01-17
-    OpenJDK Runtime Environment (build 11.0.18+10-post-Ubuntu-0ubuntu122.10)
-    OpenJDK 64-Bit Server VM (build 11.0.18+10-post-Ubuntu-0ubuntu122.10, mixed mode, sharing)
+
+```text
+openjdk version "11.0.18" 2023-01-17
+OpenJDK Runtime Environment (build 11.0.18+10-post-Ubuntu-0ubuntu122.10)
+OpenJDK 64-Bit Server VM (build 11.0.18+10-post-Ubuntu-0ubuntu122.10, mixed mode, sharing)
+```
+
 If you have more than one java installed you can select version 11 using:
 
 ```shell
